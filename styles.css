@@ -1,0 +1,35 @@
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+h1 {
+  text-align: center;
+}
+
+img{
+  border: 4px solid black;
+}
+
+div.gallery:hover {
+  border: 10px solid rgb(97, 94, 94);
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+ 
+@media only screen and (max-width: 700px) {
+  .main-container {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-container {
+    width: 100%;
+  }
+} 
